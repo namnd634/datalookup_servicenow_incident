@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="u_datalookup_table">
+    <u_datalookup_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sys_class_name>u_datalookup_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 04:25:44</sys_created_on>
+        <sys_id>3952c77dc34712108d241275e4013151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="DataLookup Table" source="46fffa39c34712108d241275e40131d9">46fffa39c34712108d241275e40131d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataLookup Table">46fffa39c34712108d241275e40131d9</sys_scope>
+        <sys_update_name>u_datalookup_table_3952c77dc34712108d241275e4013151</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 04:25:44</sys_updated_on>
+        <u_impact>significant/large</u_impact>
+        <u_number>DAT0001005</u_number>
+        <u_priority>p1</u_priority>
+        <u_urgency>immediate</u_urgency>
+    </u_datalookup_table>
+</record_update>

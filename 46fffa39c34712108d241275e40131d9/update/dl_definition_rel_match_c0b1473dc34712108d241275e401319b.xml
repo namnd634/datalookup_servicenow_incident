@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="INSERT_OR_UPDATE">
+        <dl_definition display_value="Priority Definition">2e71c33dc34712108d241275e40131ea</dl_definition>
+        <exact_match>true</exact_match>
+        <matcher_table>u_datalookup_table</matcher_table>
+        <matcher_table_field>u_urgency</matcher_table_field>
+        <source_table>u_incident</source_table>
+        <source_table_field>u_urgency</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 04:22:54</sys_created_on>
+        <sys_id>c0b1473dc34712108d241275e401319b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_urgency</sys_name>
+        <sys_package display_value="DataLookup Table" source="46fffa39c34712108d241275e40131d9">46fffa39c34712108d241275e40131d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataLookup Table">46fffa39c34712108d241275e40131d9</sys_scope>
+        <sys_update_name>dl_definition_rel_match_c0b1473dc34712108d241275e401319b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 04:23:10</sys_updated_on>
+    </dl_definition_rel_match>
+</record_update>

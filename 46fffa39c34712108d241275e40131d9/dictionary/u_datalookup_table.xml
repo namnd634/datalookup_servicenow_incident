@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="b66047b9c34712108d241275e4013102" extends="dl_matcher" label="DataLookup table" max_length="40" name="u_datalookup_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_urgency" choice_table="u_incident" label="Urgency" max_length="40" name="u_urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="Immediate" sequence="0" value="immediate"/>
+                <element inactive_on_update="false" label="High" sequence="1" value="high"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_priority" choice_table="u_incident" label="Priority" max_length="40" name="u_priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="C1" sequence="0" value="c1"/>
+                <element inactive_on_update="false" label="P1" sequence="1" value="p1"/>
+                <element inactive_on_update="false" label="P3" sequence="3" value="p3"/>
+                <element inactive_on_update="false" label="P2" sequence="2" value="p2"/>
+                <element inactive_on_update="false" label="P4" sequence="4" value="p4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_impact" choice_table="u_incident" label="Impact" max_length="40" name="u_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Moderate" sequence="2" value="moderate"/>
+                <element inactive_on_update="false" label="Extensive/Widespread" sequence="0" value="extensive/widespread"/>
+                <element inactive_on_update="false" label="Significant/Large" sequence="1" value="significant/large"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Data Lookup and Record Matching Support" source="com.glide.data_lookup">5c2517a4dcd212104f34465061b06aff</dependency>
+        <min_version>1.0.6</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 04:17:15</sys_created_on>
+        <sys_id>b66047b9c34712108d241275e4013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="DataLookup Table" source="46fffa39c34712108d241275e40131d9">46fffa39c34712108d241275e40131d9</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 04:17:15</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
